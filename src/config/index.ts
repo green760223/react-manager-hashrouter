@@ -23,7 +23,8 @@ const config = {
       'https://www.fastmock.site/mock/a5c0902ecbc737f8e4d65447420fe0d2/api'
   },
   prod: {
-    baseAPI: 'http://api-driver.marsview.cc/api',
+    // baseAPI: 'http://api-driver.marsview.cc/api',
+    baseAPI: 'https://api-proxy-service.onrender.com/api',
     uploadAPI: 'http://api-driver.marsview.cc',
     mock: false,
     cnd: 'http://www.aliyun.com',
